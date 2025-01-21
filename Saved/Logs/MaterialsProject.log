@@ -2162,3 +2162,218 @@ Sampler Limit: 32
 [2025.01.21-21.50.31:939][670]LogMaterialEditor: Applying material MM_Basic
 [2025.01.21-21.50.32:769][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
 [2025.01.21-21.50.34:148][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: ================================================
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: Total job queries 359, among them cache hits 137 (38.16%), DDC hits 178 (49.58%), Duplicates 7 (1.95%)
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: Tracking 215 distinct input hashes that result in 180 distinct outputs (83.72%)
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: RAM used: 130.82 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: Shaders Compiled: 37
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: Jobs assigned 37, completed 37 (100%)
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: Average time worker was idle: 204.60 s
+[2025.01.21-21.51.23:679][871]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.13 s
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Job execution time: average 1.11 s, max 2.87 s
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Job life time (pending + execution): average 1.17 s, max 2.91
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Shader code size: average 7.804 KiB, min 4.133 KiB, max 11.109 KiB
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.06 s
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Jobs were issued in 37 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Average processing rate: 4.08 jobs/sec
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Total thread time: 9.486 s
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Total thread preprocess time: 3.644 s
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Percentage time preprocessing: 38.41%
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Effective parallelization: 1.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 0.49 sec, max 0.50 sec, min 0.49 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 0.46 sec, max 0.49 sec, min 0.45 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 0.40 sec, max 0.40 sec, min 0.39 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.25 sec, max 0.28 sec, min 0.24 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 0.24 sec, max 0.24 sec, min 0.23 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 19.55% of total time (compiled    4 times, average 0.46 sec, max 0.49 sec, min 0.45 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                             FDebugViewModePS - 15.57% of total time (compiled    3 times, average 0.49 sec, max 0.50 sec, min 0.49 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.32% of total time (compiled    5 times, average 0.25 sec, max 0.28 sec, min 0.24 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.53% of total time (compiled    3 times, average 0.40 sec, max 0.40 sec, min 0.39 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.53% of total time (compiled    5 times, average 0.16 sec, max 0.18 sec, min 0.15 sec)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: === Material stats ===
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Materials Translated:    175
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Material Translation Only: 0.03 s (50%)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: Material Cache Hits: 24 (14%)
+[2025.01.21-21.51.23:680][871]LogShaderCompilers: Display: ================================================
+[2025.01.21-21.51.48:015][944]LogMaterialEditor: Saving and Compiling material MM_Basic
+[2025.01.21-21.51.48:110][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.21-21.51.48:161][944]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/MM_Basic] ([1] browsable assets)...
+[2025.01.21-21.51.48:259][944]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/MM_Basic.MM_Basic]
+[2025.01.21-21.51.48:259][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MM_Basic]
+[2025.01.21-21.51.48:259][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MM_Basic" FILE="../../../../UEProjects/MaterialsProject/Content/Materials/MM_Basic.uasset" SILENT=true
+[2025.01.21-21.51.48:260][944]LogSavePackage: Moving output files for package: /Game/Materials/MM_Basic
+[2025.01.21-21.51.48:260][944]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MM_Basic31BDA3BF4C0DAAAF59E556AF34C09704.tmp' to '../../../../UEProjects/MaterialsProject/Content/Materials/MM_Basic.uasset'
+[2025.01.21-21.51.48:266][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.194 ms (total: 922.472 ms)
+[2025.01.21-21.51.48:326][944]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.21-21.51.48:326][944]LogContentValidation: Enabled validators:
+[2025.01.21-21.51.48:326][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.21-21.51.48:326][944]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.21-21.51.48:326][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.21-21.51.48:326][944]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.21-21.51.48:326][944]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.21-21.51.48:326][944]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.21-21.51.48:326][944]AssetCheck: /Game/Materials/MM_Basic Validating asset
+[2025.01.21-21.51.48:396][950]LogMaterialEditor: Saving and Compiling material MM_Basic
+[2025.01.21-21.51.48:460][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.21-21.51.48:493][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/MM_Basic] ([1] browsable assets)...
+[2025.01.21-21.51.48:493][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MM_Basic]
+[2025.01.21-21.51.48:493][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MM_Basic" FILE="../../../../UEProjects/MaterialsProject/Content/Materials/MM_Basic.uasset" SILENT=true
+[2025.01.21-21.51.48:494][950]LogSavePackage: Moving output files for package: /Game/Materials/MM_Basic
+[2025.01.21-21.51.48:494][950]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MM_BasicD91A2E3A4C92AC416A34A887702862C6.tmp' to '../../../../UEProjects/MaterialsProject/Content/Materials/MM_Basic.uasset'
+[2025.01.21-21.51.48:498][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.003 ms (total: 960.475 ms)
+[2025.01.21-21.51.48:542][950]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.21-21.51.48:542][950]LogContentValidation: Enabled validators:
+[2025.01.21-21.51.48:542][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.21-21.51.48:542][950]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.21-21.51.48:542][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.21-21.51.48:542][950]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.21-21.51.48:542][950]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.21-21.51.48:542][950]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.21-21.51.48:542][950]AssetCheck: /Game/Materials/MM_Basic Validating asset
+[2025.01.21-21.52.58:115][892]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1721.405151
+[2025.01.21-21.52.58:448][893]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.01.21-21.52.58:897][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-21.52.58:897][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1722.178345, Update Interval: 344.906158
+[2025.01.21-21.53.31:940][405]LogSlate: Window 'Color Picker' being destroyed
+[2025.01.21-21.53.38:884][142]LogContentBrowser: Deferred new asset file creation: MI_BASIC_01_Inst
+[2025.01.21-21.53.38:893][142]LogContentBrowser: Creating deferred item: MI_BASIC_01_Inst
+[2025.01.21-21.53.38:903][143]LogContentBrowser: Renaming the item being created (Deferred Item: MI_BASIC_01_Inst).
+[2025.01.21-21.53.48:652][213]LogContentBrowser: Attempting asset rename: MI_BASIC_01_Inst -> MI_BASIC_2
+[2025.01.21-21.53.48:732][213]LogContentBrowser: End creating deferred item MI_BASIC_01_Inst
+[2025.01.21-21.53.53:465][687]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/MI_BASIC_2.MI_BASIC_2
+[2025.01.21-21.53.53:466][687]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.01.21-21.54.25:959][864]LogSlate: Window 'Color Picker' being destroyed
+[2025.01.21-21.54.56:551][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.21-21.54.56:578][ 92]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/MI_BASIC_2] ([1] browsable assets)...
+[2025.01.21-21.54.56:638][ 92]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/MI_BASIC_2.MI_BASIC_2]
+[2025.01.21-21.54.56:638][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MI_BASIC_2]
+[2025.01.21-21.54.56:638][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MI_BASIC_2" FILE="../../../../UEProjects/MaterialsProject/Content/Materials/MI_BASIC_2.uasset" SILENT=true
+[2025.01.21-21.54.56:662][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.01.21-21.54.56:671][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.21-21.54.56:672][ 92]LogSavePackage: Moving output files for package: /Game/Materials/MI_BASIC_2
+[2025.01.21-21.54.56:673][ 92]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MI_BASIC_292C1EA864944FC00090BFBA63F2D05E0.tmp' to '../../../../UEProjects/MaterialsProject/Content/Materials/MI_BASIC_2.uasset'
+[2025.01.21-21.54.56:800][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 250.253 ms (total: 1.21 sec)
+[2025.01.21-21.54.56:828][ 92]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: Enabled validators:
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.21-21.54.56:829][ 92]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.21-21.54.56:829][ 92]AssetCheck: /Game/Materials/MI_BASIC_2 Validating asset
+[2025.01.21-21.55.01:541][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.21-21.55.01:635][644]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.21-21.55.01:662][644]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/StarterContent/Maps/MaterialsProject/8/6B/I9X39XTGHPPM3TA0HT0F8T
+[2025.01.21-21.55.01:662][644]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/I9X39XTGHPPM3TA0HT0F8T5AC89B784CC79E7D4688F6BE2E7F412A.tmp' to '../../../../UEProjects/MaterialsProject/Content/__ExternalActors__/StarterContent/Maps/MaterialsProject/8/6B/I9X39XTGHPPM3TA0HT0F8T.uasset'
+[2025.01.21-21.55.01:663][644]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/MI_BASIC_01] ([1] browsable assets)...
+[2025.01.21-21.55.01:716][644]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/MI_BASIC_01.MI_BASIC_01]
+[2025.01.21-21.55.01:716][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MI_BASIC_01]
+[2025.01.21-21.55.01:716][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MI_BASIC_01" FILE="../../../../UEProjects/MaterialsProject/Content/Materials/MI_BASIC_01.uasset" SILENT=true
+[2025.01.21-21.55.01:724][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.21-21.55.01:734][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.01.21-21.55.01:736][644]LogSavePackage: Moving output files for package: /Game/Materials/MI_BASIC_01
+[2025.01.21-21.55.01:736][644]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MI_BASIC_0160A804D4405CEF5CEC3373852A0F0DF4.tmp' to '../../../../UEProjects/MaterialsProject/Content/Materials/MI_BASIC_01.uasset'
+[2025.01.21-21.55.01:740][644]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.038 ms (total: 1.31 sec)
+[2025.01.21-21.55.01:799][644]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.21-21.55.01:799][644]LogContentValidation: Enabled validators:
+[2025.01.21-21.55.01:799][644]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.21-21.55.01:799][644]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.21-21.55.01:799][644]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.21-21.55.01:799][644]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.21-21.55.01:799][644]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.21-21.55.01:799][644]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.21-21.55.01:799][644]AssetCheck: /Game/StarterContent/Maps/MaterialsProject Validating asset
+[2025.01.21-21.55.01:799][644]AssetCheck: /Game/Materials/MI_BASIC_01 Validating asset
+[2025.01.21-21.58.07:614][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.01.21-21.58.07:617][473]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/MaterialsProject' took 0.014
+[2025.01.21-21.58.07:617][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/MI_BASIC_01] ([1] browsable assets)...
+[2025.01.21-21.58.07:740][473]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/MI_BASIC_01.MI_BASIC_01]
+[2025.01.21-21.58.07:740][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MI_BASIC_01]
+[2025.01.21-21.58.07:740][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MI_BASIC_01" FILE="../../../../UEProjects/MaterialsProject/Saved/Autosaves/Game/Materials/MI_BASIC_01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.01.21-21.58.07:749][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.01.21-21.58.07:757][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.01.21-21.58.07:759][473]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/MI_BASIC_01_Auto2
+[2025.01.21-21.58.07:759][473]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MI_BASIC_01_Auto22FE282CF4B601C5EB453888C538B465E.tmp' to '../../../../UEProjects/MaterialsProject/Saved/Autosaves/Game/Materials/MI_BASIC_01_Auto2.uasset'
+[2025.01.21-21.58.07:759][473]LogFileHelpers: Auto-saving content packages took 0.142
+[2025.01.21-21.59.26:255][709]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2109.551025
+[2025.01.21-21.59.27:252][712]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-21.59.27:252][712]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2110.216064, Update Interval: 345.517761
+[2025.01.21-22.05.47:321][852]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2490.615967
+[2025.01.21-22.05.48:317][855]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.05.48:318][855]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2491.279541, Update Interval: 324.035156
+[2025.01.21-22.09.23:534][462]LogSlate: Window 'Color Picker' being destroyed
+[2025.01.21-22.10.32:365][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2025.01.21-22.10.32:366][156]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/MaterialsProject' took 0.013
+[2025.01.21-22.10.32:366][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/MI_BASIC_01] ([1] browsable assets)...
+[2025.01.21-22.10.32:465][156]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/MI_BASIC_01.MI_BASIC_01]
+[2025.01.21-22.10.32:465][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MI_BASIC_01]
+[2025.01.21-22.10.32:465][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MI_BASIC_01" FILE="../../../../UEProjects/MaterialsProject/Saved/Autosaves/Game/Materials/MI_BASIC_01_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.01.21-22.10.32:481][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.01.21-22.10.32:489][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.21-22.10.32:491][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/MI_BASIC_01_Auto3
+[2025.01.21-22.10.32:491][156]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MI_BASIC_01_Auto323058F814F687DB1163CFF8B030C2477.tmp' to '../../../../UEProjects/MaterialsProject/Saved/Autosaves/Game/Materials/MI_BASIC_01_Auto3.uasset'
+[2025.01.21-22.10.32:491][156]LogFileHelpers: Auto-saving content packages took 0.125
+[2025.01.21-22.11.14:280][404]LogSlate: Window 'MI_BASIC_01' being destroyed
+[2025.01.21-22.11.14:311][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.01.21-22.11.14:379][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.01.21-22.12.07:478][972]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2870.782715
+[2025.01.21-22.12.08:474][975]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.12.08:474][975]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2871.448730, Update Interval: 340.899689
+[2025.01.21-22.18.27:204][112]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3250.504639
+[2025.01.21-22.18.28:203][114]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.18.28:203][114]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3251.174072, Update Interval: 341.948914
+[2025.01.21-22.25.03:937][301]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3647.237061
+[2025.01.21-22.25.04:937][304]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.25.04:937][304]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3647.899170, Update Interval: 351.681274
+[2025.01.21-22.25.58:829][466]LogDerivedDataCache: C:/Users/Kenne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.01.21-22.31.46:994][510]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4050.292480
+[2025.01.21-22.31.47:996][513]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.31.47:996][513]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4050.959717, Update Interval: 353.043610
+[2025.01.21-22.38.33:380][729]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4456.682129
+[2025.01.21-22.38.34:387][733]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.38.34:387][733]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4457.357422, Update Interval: 349.762268
+[2025.01.21-22.45.05:449][905]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4848.752930
+[2025.01.21-22.45.06:446][908]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.45.06:446][908]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4849.416504, Update Interval: 305.323029
+[2025.01.21-22.49.15:827][758]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.01.21-22.49.24:017][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.01.21-22.49.24:137][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.21-22.49.24:195][672]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/MI_BASIC_01] ([1] browsable assets)...
+[2025.01.21-22.49.24:195][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/MI_BASIC_01]
+[2025.01.21-22.49.24:195][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MI_BASIC_01" FILE="../../../../UEProjects/MaterialsProject/Content/Materials/MI_BASIC_01.uasset" SILENT=true
+[2025.01.21-22.49.24:196][672]LogSavePackage: Moving output files for package: /Game/Materials/MI_BASIC_01
+[2025.01.21-22.49.24:196][672]LogSavePackage: Moving '../../../../UEProjects/MaterialsProject/Saved/MI_BASIC_01DD77E86540668F346032C6959DFC8E02.tmp' to '../../../../UEProjects/MaterialsProject/Content/Materials/MI_BASIC_01.uasset'
+[2025.01.21-22.49.24:201][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.902 ms (total: 1.38 sec)
+[2025.01.21-22.49.24:248][672]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.21-22.49.24:248][672]LogContentValidation: Enabled validators:
+[2025.01.21-22.49.24:248][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.21-22.49.24:248][672]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.21-22.49.24:248][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.21-22.49.24:248][672]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.21-22.49.24:248][672]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.21-22.49.24:248][672]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.21-22.49.24:248][672]AssetCheck: /Game/Materials/MI_BASIC_01 Validating asset
+[2025.01.21-22.50.50:645][506]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5193.948730
+[2025.01.21-22.50.51:647][509]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.50.51:647][509]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5194.618652, Update Interval: 355.453369
+[2025.01.21-22.57.17:642][110]LogSlate: Window 'Open Level' being destroyed
+[2025.01.21-22.57.37:470][238]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5600.767578
+[2025.01.21-22.57.38:471][241]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.21-22.57.38:471][241]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5601.434082, Update Interval: 335.941040
+[2025.01.21-22.58.28:123][496]Cmd: CLOSE_SLATE_MAINFRAME
+[2025.01.21-22.58.29:492][496]LogSlate: Window 'Message' being destroyed
+[2025.01.21-22.58.29:496][496]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/MM_Basic.MM_Basic
+(Selecting 'No' will cause all changes to be lost!)
+[2025.01.21-22.58.29:608][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.01.21-22.58.29:750][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.01.21-22.58.29:761][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
